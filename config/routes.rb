@@ -1,7 +1,12 @@
 TpyWebsite::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/contact"
+  root to: "static_pages#home"
+  match "/contact", to: "static_pages#contact"
+  match "/demo", to: "static_pages#demo"
+
+  match "/b", to: "static_pages#cyborg" #for development
+
   
+  # match '/help',    to: 'static_pages#help'
   
 
   # The priority is based upon order of creation:

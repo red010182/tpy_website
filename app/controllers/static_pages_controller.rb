@@ -4,4 +4,10 @@ class StaticPagesController < ApplicationController
 
   def contact
   end
+
+  def demo
+  end
+
+  def cyborg
+  end
 end

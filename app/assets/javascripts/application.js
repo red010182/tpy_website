@@ -13,7 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-
 var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-23019901-1']);
 		  _gaq.push(['_setDomainName', "bootswatch.com"]);

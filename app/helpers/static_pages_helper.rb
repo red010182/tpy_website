@@ -11,8 +11,9 @@ module StaticPagesHelper
 	def nav_search_box(placeholder_text)
 		
 	end
-
+=begin		
 	def InitDB
+
 	  	@projects = 
 	  	[
 	  		{:name =>"Peggy AI", :language => "C", :course => "Data Structure", :description => "n/a"},
@@ -34,7 +35,7 @@ module StaticPagesHelper
 
 		}
 	end
-
+=end
 
 	def PackageWithTag(tag,element,*attri)
 		if attri.empty?

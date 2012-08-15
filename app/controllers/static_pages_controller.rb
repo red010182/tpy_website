@@ -18,11 +18,7 @@ class StaticPagesController < ApplicationController
 			["MS","National Central University","Electronic Engineering","2008~2011"]
         ]
 
-	@working_experience_table = 
-		[
-			[]
-		]					  
-		
+	
   end
 
   def works

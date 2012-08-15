@@ -1,9 +1,14 @@
 TpyWebsite::Application.routes.draw do
   root to: "static_pages#home"
-  match "/contact", to: "static_pages#contact"
-  match "/demo", to: "static_pages#demo"
+  match "/biography", to: "static_pages#biography"
+  match "/works", to: "static_pages#works"
+  match "/future_plan", to: "static_pages#future_plan"
+  match "/quiz", to: "static_pages#quiz"
+  match "/focus", to: "static_pages#focus"
 
-  match "/b", to: "static_pages#cyborg" #for development
+  match "/contact", to: "static_pages#contact"
+
+  match "/cyborg", to: "static_pages#cyborg" #for development
 
   
   # match '/help',    to: 'static_pages#help'

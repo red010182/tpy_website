@@ -11,6 +11,6 @@
  *= require bootstrap.min
  *= require bootstrap-responsive
  *= require_self
- *= require_tree .
+ *= 
  */
 

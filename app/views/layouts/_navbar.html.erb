@@ -1,3 +1,4 @@
+<nav>
 <div class="navbar navbar-fixed-top">
    <div class="navbar-inner">
      <div class="container">
@@ -9,29 +10,33 @@
        <a class="brand" href="../">Tpy's Website</a>
        <div class="nav-collapse" id="main-menu">
           <ul class="nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+
+            <li class="active"><%= link_to "Home", root_path %></li>
+            <li><%= link_to "Biography", biography_path %></li>
+            <li><%= link_to "Works I've done", works_path %></li>          
+            <li><%= link_to "Future plan", future_plan_path %></li>          
+            
+
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More
+                <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li><%= link_to "Quiz I've been thinking", quiz_path %></li>          
+                <li><%= link_to "Things that always catch my focus" , focus_path %></li>           
                 <li class="divider"></li>
                 <li><a href="#">Separated link</a></li>
               </ul>
             </li>
           </ul>
+
           <form class="navbar-search pull-left" action="">
-            <input type="text" class="search-query span2" placeholder="Search">
+            <input type="text" class="search-query span2" placeholder="Search (not work yet)">
           </form>
           <ul class="nav pull-right">
-            <li><a href="#">Link</a></li>
+            <li><%= link_to "Link", contact_path %></li>
             <li class="divider-vertical"></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
@@ -45,3 +50,4 @@
      </div>
    </div>
  </div>
+</nav>

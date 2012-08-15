@@ -1,0 +1,44 @@
+education:
+bs:ncu
+	featured course:
+		Data Structure (got the highest grade in the class & my whole colleage period)
+		Electric Devices 3/3
+		Engineering Math (linear algebra, complex, xxx)
+		EDA, 
+		DSP, digital signal processing
+		Computer Organization
+		DSD, digital system design	
+
+
+ms:ncu
+	featured course:
+		WiMax
+		DVBT algorithm & circuit design
+		Communication Device Lab
+
+	thesis description:
+	
+
+
+experience:
+short intern:
+	company: Dayen technology for 2 month
+	position: software engineer
+	description: image processing develope
+
+contest:
+	IC design by CIC
+	Start up competetion by NCU
+
+part time tutor, for: 
+	junior high school: english/math
+	senior high school: math
+	college: electrical devices
+	college: C language
+
+part time case
+	qqlaw.tw 
+	school lab website
+	data analysis
+
+
